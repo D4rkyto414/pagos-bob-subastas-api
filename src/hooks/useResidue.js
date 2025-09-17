@@ -23,8 +23,6 @@ const useResidue = () => {
   }, []);
 
   const updateBalance = (newBalance) => {
-    // Aquí puedes agregar la lógica para actualizar el saldo
-    // localmente o llamar a un servicio para persistir el cambio
     setBalance(newBalance);
   };
 
